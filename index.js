@@ -1189,7 +1189,7 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
               
                break
       case 'command':
-        var menu = `                   *HELLO YAAR*âœ¨    `;
+        var menu = `                   *SXRGXX-BOT*âœ¨    `;
         sendButVideo(from, menu, `${ucapanWaktu} ${pushname}
 â•”â•â•â•â•â•â•â•â•â•â•â•â•â–º
 â•‘â¦¿ Prefix : ${prefix}
@@ -1375,6 +1375,8 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
 â•‘â devote
 â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
  *ã€…INFO BOTã€…*
+ðŸ”–Creador : Wa.me/525623741080
+ðŸ”– https://chat.whatsapp.com/HBIuYbkbEfu8wkLaxzP06v
 ðŸ”–Prefix : ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€
 ðŸ”–Runtime : ${runtime(process.uptime())}
 ðŸ”–Hit Today : ${hit_today.length} Hit
