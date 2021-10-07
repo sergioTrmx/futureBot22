@@ -109,14 +109,14 @@ readPc = false;
 autovn = false;
 autoketik = false;
 prefixStatus = true;
-targetpc = "916909137213";
-owner = "916909137213";
-fakeyoi = "Xeon";
+targetpc = "5215623741080";
+owner = "5215623741080";
+fakeyoi = "Sergio";
 HunterApi = "Ikyy69",
 valkey = "rivalgans",
 dapapi = "itsmevall",
-nomorowner1 = "@916909147213";
-fake = `Xeonッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+nomorowner1 = "@5215623741080";
+fake = `Sxrgxxッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
@@ -277,7 +277,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
     const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`5215623741080@s.whatsapp.net`]
     const m = simple.smsg(itsmevall, mek);
     const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
@@ -355,7 +355,7 @@ await itsmevall.updatePresence(from, Presence.composing)
       itsmevall.sendMessage(from, teks, text, { quoted: mek });
     };*/
 const reply = (teks) => {
-			itsmevall.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `isko gulambi chaiye XD`,body:"",previewType:"PHOTO",thumbnail:bgg,sourceUrl:`https://wa.me/916909137213?text=Hello bro`}}})
+			itsmevall.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Toca el link`,body:"",previewType:"PHOTO",thumbnail:bgg,sourceUrl:`https://wa.me/5215623741080?text=Hello bro`}}})
 		}
     const sendMess = (hehe, teks) => {
       itsmevall.sendMessage(hehe, teks, text);
@@ -856,7 +856,7 @@ sendEphemeral: false,
                 "sourceUrl": `wa.me/916909137213`,
 },mentionedJid:[sender]}, quoted : mek})
 };
-function _0x23f0(){const _0xb751aa=['https://i.ibb.co/0B7SV7C/FB-IMG-1633258042205.jpg','5378196SaDwil','537918aztXIm','readFileSync','9EjBtBZ','104470aAeKBR','https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A','5cDZJJo','20379lPcRuW','./stik/thumb.jpeg','sendMessage','44PReDXE','Hello\x20','8pgbmZm','240929GbKExl','11TGLAJt','1420349MLJTFP','2512074oFCnxW'];_0x23f0=function(){return _0xb751aa;};return _0x23f0();}(function(_0x1e55a3,_0x56e726){const _0xdc492=_0x3b80,_0x3f050a=_0x1e55a3();while(!![]){try{const _0x615a03=-parseInt(_0xdc492(0x1ea))/0x1+-parseInt(_0xdc492(0x1f0))/0x2+parseInt(_0xdc492(0x1e4))/0x3*(parseInt(_0xdc492(0x1e7))/0x4)+-parseInt(_0xdc492(0x1f5))/0x5*(-parseInt(_0xdc492(0x1ed))/0x6)+-parseInt(_0xdc492(0x1ec))/0x7*(parseInt(_0xdc492(0x1e9))/0x8)+-parseInt(_0xdc492(0x1f2))/0x9*(parseInt(_0xdc492(0x1f3))/0xa)+-parseInt(_0xdc492(0x1eb))/0xb*(-parseInt(_0xdc492(0x1ef))/0xc);if(_0x615a03===_0x56e726)break;else _0x3f050a['push'](_0x3f050a['shift']());}catch(_0x2290c1){_0x3f050a['push'](_0x3f050a['shift']());}}}(_0x23f0,0x354e7));function _0x3b80(_0x185291,_0x399c5e){const _0x23f087=_0x23f0();return _0x3b80=function(_0x3b80a1,_0x38fc9b){_0x3b80a1=_0x3b80a1-0x1e4;let _0x322fe2=_0x23f087[_0x3b80a1];return _0x322fe2;},_0x3b80(_0x185291,_0x399c5e);}const fakeyt=_0x5773fb=>{const _0x5831e4=_0x3b80;itsmevall[_0x5831e4(0x1e6)](from,_0x5773fb,text,{'contextInfo':{'text':'hi','forwardingScore':0x3b9aca00,'isForwarded':![],'sendEphemeral':![],'externalAdReply':{'title':_0x5831e4(0x1e8)+pushname,'body':''+ucapanWaktu,'mediaType':'2','thumbnailUrl':_0x5831e4(0x1ee),'mediaUrl':_0x5831e4(0x1f4),'thumbnail':fs[_0x5831e4(0x1f1)](_0x5831e4(0x1e5)),'sourceUrl':''},'mentionedJid':[sender]},'quoted':fgif});};
+function _0x23f0(){const _0xb751aa=['https://i.ibb.co/0B7SV7C/FB-IMG-1633258042205.jpg','5378196SaDwil','537918aztXIm','readFileSync','9EjBtBZ','104470aAeKBR','https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0YRyO3A','5cDZJJo','20379lPcRuW','./stik/thumb.jpeg','sendMessage','44PReDXE','Hello\x20','8pgbmZm','240929GbKExl','11TGLAJt','1420349MLJTFP','2512074oFCnxW'];_0x23f0=function(){return _0xb751aa;};return _0x23f0();}(function(_0x1e55a3,_0x56e726){const _0xdc492=_0x3b80,_0x3f050a=_0x1e55a3();while(!![]){try{const _0x615a03=-parseInt(_0xdc492(0x1ea))/0x1+-parseInt(_0xdc492(0x1f0))/0x2+parseInt(_0xdc492(0x1e4))/0x3*(parseInt(_0xdc492(0x1e7))/0x4)+-parseInt(_0xdc492(0x1f5))/0x5*(-parseInt(_0xdc492(0x1ed))/0x6)+-parseInt(_0xdc492(0x1ec))/0x7*(parseInt(_0xdc492(0x1e9))/0x8)+-parseInt(_0xdc492(0x1f2))/0x9*(parseInt(_0xdc492(0x1f3))/0xa)+-parseInt(_0xdc492(0x1eb))/0xb*(-parseInt(_0xdc492(0x1ef))/0xc);if(_0x615a03===_0x56e726)break;else _0x3f050a['push'](_0x3f050a['shift']());}catch(_0x2290c1){_0x3f050a['push'](_0x3f050a['shift']());}}}(_0x23f0,0x354e7));function _0x3b80(_0x185291,_0x399c5e){const _0x23f087=_0x23f0();return _0x3b80=function(_0x3b80a1,_0x38fc9b){_0x3b80a1=_0x3b80a1-0x1e4;let _0x322fe2=_0x23f087[_0x3b80a1];return _0x322fe2;},_0x3b80(_0x185291,_0x399c5e);}const fakeyt=_0x5773fb=>{const _0x5831e4=_0x3b80;itsmevall[_0x5831e4(0x1e6)](from,_0x5773fb,text,{'contextInfo':{'text':'hi','forwardingScore':0x3b9aca00,'isForwarded':![],'sendEphemeral':![],'externalAdReply':{'title':_0x5831e4(0x1e8)+pushname,'body':''+ucapanWaktu,'mediaType':'2','thumbnailUrl':_0x5831e4(0x1ee),'mediaUrl':_0x5831e4(0x1f4),'thumbnail':fs[_0x5831e4(0x1f1)](_0x5831e4(0x1e5)),'sourceUrl':''},'mentionedJid':[sender]},'quoted':fgif});};
     const sendBug = async (target, teks) => {
       if (!teks) teks = ".";
       await itsmevall.relayWAMessage(
@@ -1176,9 +1176,9 @@ case 'menu':
                buttonsMessage = {
                contentText: `${txtt}`,
                footerText: `© Owner: ${fakeyoi}
-YouTube = https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A
-Instagram = https://www.instagram.com/josephxeon13/
-Github = https://github.com/DGXeon
+Wtspp = https://chat.whatsapp.com/HBIuYbkbEfu8wkLaxzP06v
+Instagram = https://www.instagram.com/p/CRcPI4RhtpwE_KPR-JS7ICNNH4s_j3qfAlrteI0/?utm_medium=copy_link
+Github = http://�-.li
  
 *Gulambi Owner Vimdhayak*`, imageMessage: imageMsg,
                buttons: buttons,
@@ -1189,7 +1189,7 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
               
                break
       case 'command':
-        var menu = `                   *HELLO YAAR*✨    `;
+        var menu = `                   *Sxrgxx-Bot*✨    `;
         sendButVideo(from, menu, `${ucapanWaktu} ${pushname}
 ╔════════════►
 ║⦿ Prefix : ${prefix}
@@ -1375,6 +1375,7 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
 ║❏ devote
 ╚══════════════►    
  *々INFO BOT々*
+🔖Creador : wa.me/525623741080
 🔖Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
 🔖Runtime : ${runtime(process.uptime())}
 🔖Hit Today : ${hit_today.length} Hit
@@ -1455,7 +1456,7 @@ reply(`${mek.quoted.caption}`)
 }
 break
 case 'iggw':
-  reply('https://www.instagram.com/josephxeon13/')
+  reply('https://www.instagram.com/sxrgxx.02/')
 break
       /*case "owner":
         sendKontak(from, owner, "Xeon", "Busy");*/
@@ -1479,7 +1480,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = itsmevall.contacts[i] != undefined ? itsmevall.contacts[i].vname || itsmevall.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Xeon',
+"displayName": 'Sergio',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${itsmevall.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -2315,7 +2316,7 @@ case 'hacked':
                 await sleep(1000)
                 itsmevall.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'ytgw':
-  reply('https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A')
+  reply('http://�-.li')
 					break;
    case 'ss':
       reply(mess.wait)
