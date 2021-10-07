@@ -85,19 +85,19 @@ const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
       var ucapanWaktu = "Selamat malam";
     }
     if (time2 < "19:00:00") {
-      var ucapanWaktu = "Selamat senja🌞";
+      var ucapanWaktu = "Selamat senjaðŸŒž";
     }
     if (time2 < "18:00:00") {
-      var ucapanWaktu = "Selamat sore🌄";
+      var ucapanWaktu = "Selamat soreðŸŒ„";
     }
     if (time2 < "15:00:00") {
-      var ucapanWaktu = "Selamat siang☀️";
+      var ucapanWaktu = "Selamat siangâ˜€ï¸";
     }
     if (time2 < "11:00:00") {
-      var ucapanWaktu = "Selamat pagi🌅";
+      var ucapanWaktu = "Selamat pagiðŸŒ…";
     }
     if (time2 < "05:00:00") {
-      var ucapanWaktu = "Selamat malam🌃";
+      var ucapanWaktu = "Selamat malamðŸŒƒ";
     }
     // ubah yg ada nomor gw:v , sama nama
 banChats = true;
@@ -109,14 +109,14 @@ readPc = false;
 autovn = true;
 autoketik = false;
 prefixStatus = true;
-targetpc = "6282284568556";
-owner = "6282284568556";
-fakeyoi = "WinBellzッ";
+targetpc = "5215623741080";
+owner = "5215623741080";
+fakeyoi = "WinBellzãƒƒ";
 HunterApi = "Ikyy69",
 valkey = "rivalgans",
 dapapi = "itsmevall",
-nomorowner1 = "@6282284568556";
-fake = `WinBellzッ\n ${ucapanWaktu} Kak🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+nomorowner1 = "@5215623741080";
+fake = `WinBellzãƒƒ\n ${ucapanWaktu} KakðŸ¤ \nðŸ”–Prefix :ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€`;
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
@@ -277,7 +277,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
     const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`6282284568556@s.whatsapp.net`]
+    const ownerNumber = [`5215623741080@s.whatsapp.net`]
     const m = simple.smsg(itsmevall, mek);
     const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
@@ -300,7 +300,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     const pushname = mek.key.fromMe
       ? itsmevall.user.name
       : conts.notify || conts.vname || conts.name || "-";
-    const readmore = "͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏";
+    const readmore = "ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ";
     if (prefix && command) cmdadd();
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
@@ -329,7 +329,7 @@ await itsmevall.updatePresence(from, Presence.composing)
      
     //MESS
     mess = {
-      wait: "🔖 Sedang Di Proses",
+      wait: "ðŸ”– Sedang Di Proses",
       success: "Berhasil!",
       wrongFormat: "Format salah, coba liat lagi di menu",
       error: {
@@ -662,7 +662,7 @@ itsmevall.on('CB:action,,battery', json => {
         );
       });
     };
-//******************* 》banchat《 ********************\\
+//******************* ã€‹banchatã€Š ********************\\
 if (isBanchat){
 if (!itsMe && !isOwner)return 
 }
@@ -807,7 +807,7 @@ itsmevall.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       itsmevall.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Argio Dev`, "footerText": "*_© Dcode Denpa_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `Argio Dev`, "footerText": "*_Â© Dcode Denpa_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             itsmevall.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -833,7 +833,7 @@ itsmevall.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-Bot\nW I N B E L. (@WinBellz) •Instagram photos and Videos`,
+                "title": `Whatsapp-Bot\nW I N B E L. (@WinBellz) â€¢Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://k.top4top.io/p_20775ulbr0.jpg",
@@ -1019,7 +1019,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         } else {
           vote.push({
             participant: id_vote,
-            voting: "✅",
+            voting: "âœ…",
           });
           fs.writeFileSync(`./lib/${from}.json`, JSON.stringify(vote));
           let _p = [];
@@ -1051,7 +1051,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         } else {
           vote.push({
             participant: id_vote,
-            voting: "❌",
+            voting: "âŒ",
           });
           fs.writeFileSync(`./lib/${from}.json`, JSON.stringify(vote));
           let _p = [];
@@ -1168,24 +1168,24 @@ case 'menu':
        txtt =`Hai Kak ${pushname}\nPilih Opsi Dibawah Ini Ya.. `
 
                buttons = [{buttonId:`${prefix}command`, 
-               buttonText:{displayText: 'MENU📒'},type:1},
-               {buttonId:`${prefix}status`,buttonText:{displayText:'STATUS BOT🛠️'},type:1},
-               {buttonId:`${prefix}mode`,buttonText:{displayText:'MODE BOT🤖'},type:1}]
+               buttonText:{displayText: 'MENUðŸ“’'},type:1},
+               {buttonId:`${prefix}status`,buttonText:{displayText:'STATUS BOTðŸ› ï¸'},type:1},
+               {buttonId:`${prefix}mode`,buttonText:{displayText:'MODE BOTðŸ¤–'},type:1}]
 
                imageMsg = (await itsmevall.prepareMessageMedia(fs.readFileSync(`./stik/oksip.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync(`./stik/oksip.jpeg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: `© Owner ${fakeyoi}
+               footerText: `Â© Owner ${fakeyoi}
 YouTube = https://youtube.com/channel/UCe_fPdoiz5Qpj25XdRh6Xgg
 InsTaGram = https://instagram.com/WinBellz
 GiThuB = https://github.com/GzzzzBotz
  
-*Thank Big Too🛐*
-*-Allah Swt✨*
-*-Ortuku👥*
+*Thank Big TooðŸ›*
+*-Allah Swtâœ¨*
+*-OrtukuðŸ‘¥*
 *-MhankBarBar,Aqullz,ItsMeVall*
-*- All Creator Bot✨*`, imageMessage: imageMsg,
+*- All Creator Botâœ¨*`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1194,210 +1194,210 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
               
                break
       case 'command':
-        var menu = `                   *HALO KACK*✨    `;
+        var menu = `                   *HALO KACK*âœ¨    `;
         sendButVideo(from, menu, `${ucapanWaktu} ${pushname}
 
-⦿ Jam : ${jam}
-⦿ Hari : ${week} ${weton}
-⦿ Tanggal : ${date}
+â¦¿ Jam : ${jam}
+â¦¿ Hari : ${week} ${weton}
+â¦¿ Tanggal : ${date}
 ${readmore}
 
-╔════════════►
-║*「OWNER」*
-║☆ۣۜۜ፝͜͜͡͡•off
-║☆ۣۜۜ፝͜͜͡͡•isbaileys
-║☆ۣۜۜ፝͜͜͡͡•banchat
-║☆ۣۜۜ፝͜͜͡͡•unbanchat
-║☆ۣۜۜ፝͜͜͡͡•listbc
-║☆ۣۜۜ፝͜͜͡͡•antidelete on|off
-║☆ۣۜۜ፝͜͜͡͡•autoketik on| off
-║☆ۣۜۜ፝͜͜͡͡•autoread gc on / gc off
-║☆ۣۜۜ፝͜͜͡͡•autovn on / off
-║☆ۣۜۜ፝͜͜͡͡•antical on | off
-║☆ۣۜۜ፝͜͜͡͡•getcaption
-║☆ۣۜۜ፝͜͜͡͡•on
-║☆ۣۜۜ፝͜͜͡͡•status
-║☆ۣۜۜ፝͜͜͡͡•setthumb
-║☆ۣۜۜ፝͜͜͡͡•settarget
-║☆ۣۜۜ፝͜͜͡͡•setfakeimg
-║☆ۣۜۜ፝͜͜͡͡•setreply
-║☆ۣۜۜ፝͜͜͡͡•bugpc2
-║☆ۣۜۜ፝͜͜͡͡•bugpc
-║☆ۣۜۜ፝͜͜͡͡•bugcombine
-║☆ۣۜۜ፝͜͜͡͡•buglokasi
-║☆ۣۜۜ፝͜͜͡͡•bug [jumlah]
-║☆ۣۜۜ፝͜͜͡͡•hacked
-║☆ۣۜۜ፝͜͜͡͡•setprefix [2 Button]
-║☆ۣۜۜ፝͜͜͡͡•mode [2 Button self/public]
-║☆ۣۜۜ፝͜͜͡͡•term <code>
-║☆ۣۜۜ፝͜͜͡͡•eval <code>
-║☆ۣۜۜ፝͜͜͡͡•colongsw [reply sw]
-╚══════════════►    
-╔══════════════►
-║*「GRUP」*
-║☆ۣۜۜ፝͜͜͡͡•grup [3 Button]
-║☆ۣۜۜ፝͜͜͡͡•promote <reply chat member>
-║☆ۣۜۜ፝͜͜͡͡•demote <reply chat member>
-║☆ۣۜۜ፝͜͜͡͡•setdesc
-║☆ۣۜۜ፝͜͜͡͡•setname
-║☆ۣۜۜ፝͜͜͡͡•kick <reply/tag member>
-║☆ۣۜۜ፝͜͜͡͡•add <reply/tag member>
-║☆ۣۜۜ፝͜͜͡͡•getbio <reply chat member>
-║☆ۣۜۜ፝͜͜͡͡•getname <reply chat member>
-║☆ۣۜۜ፝͜͜͡͡•reminder <msg/2s>
-║☆ۣۜۜ፝͜͜͡͡•listonline
-║☆ۣۜۜ፝͜͜͡͡•sider [reply chat bot]
-║☆ۣۜۜ፝͜͜͡͡•antilink
-║☆ۣۜۜ፝͜͜͡͡•tod 
-║☆ۣۜۜ፝͜͜͡͡•tospam jumlah
-║☆ۣۜۜ፝͜͜͡͡•antihidetag
-║☆ۣۜۜ፝͜͜͡͡•antiviewonce
-║☆ۣۜۜ፝͜͜͡͡•autojoin
-║☆ۣۜۜ፝͜͜͡͡•antivirtex
-║☆ۣۜۜ፝͜͜͡͡•kickarea
-╚══════════════►    
-╔══════════════►
-║*「MAKER」*
-║☆ۣۜۜ፝͜͜͡͡•sticker
-║☆ۣۜۜ፝͜͜͡͡•swm <author|packname>
-║☆ۣۜۜ፝͜͜͡͡•take <author|packname>
-║☆ۣۜۜ፝͜͜͡͡•fdeface
-║☆ۣۜۜ፝͜͜͡͡•attp teks
-║☆ۣۜۜ፝͜͜͡͡•fancytext teks
-║☆ۣۜۜ፝͜͜͡͡•emoji
-║☆ۣۜۜ፝͜͜͡͡•halloween teks
-║☆ۣۜۜ፝͜͜͡͡•vampire teks
-║☆ۣۜۜ፝͜͜͡͡•codetxt teks
-║☆ۣۜۜ፝͜͜͡͡•matrix teks
-║☆ۣۜۜ፝͜͜͡͡•googletxt teks
-║☆ۣۜۜ፝͜͜͡͡•spiderman teks
-║☆ۣۜۜ፝͜͜͡͡•express
-║☆ۣۜۜ፝͜͜͡͡•teks teks
-║☆ۣۜۜ፝͜͜͡͡•dance
-║☆ۣۜۜ፝͜͜͡͡•nulis teks
-║☆ۣۜۜ፝͜͜͡͡•text3d teks
-║☆ۣۜۜ፝͜͜͡͡•warrior teks
-╚══════════════►
-╔══════════════►
-║*「CONVERT」*
-║☆ۣۜۜ፝͜͜͡͡•toimg
-║☆ۣۜۜ፝͜͜͡͡•tomp3
-║☆ۣۜۜ፝͜͜͡͡•tomp4
-║☆ۣۜۜ፝͜͜͡͡•slow
-║☆ۣۜۜ፝͜͜͡͡•fast
-║☆ۣۜۜ፝͜͜͡͡•reverse
-║☆ۣۜۜ፝͜͜͡͡•tourl
-╚══════════════►    
-╔══════════════►
-║*「DOWNLOADER」*
-║☆ۣۜۜ፝͜͜͡͡•tiktok <url>
-║☆ۣۜۜ፝͜͜͡͡•ytmp4 <url>
-║☆ۣۜۜ፝͜͜͡͡•play <url>
-║☆ۣۜۜ፝͜͜͡͡•ytmp3 <url>
-║☆ۣۜۜ፝͜͜͡͡•instagram <url>
-║☆ۣۜۜ፝͜͜͡͡•twitter <url>
-╚══════════════►
-╔══════════════►
-║*「UP STORY」*
-║☆ۣۜۜ፝͜͜͡͡•upswteks
-║☆ۣۜۜ፝͜͜͡͡•upswimage
-║☆ۣۜۜ፝͜͜͡͡•upswvideo
-╚══════════════►    
-╔══════════════►
-║*「FUN」*
-║☆ۣۜۜ፝͜͜͡͡•fitnah
-║☆ۣۜۜ፝͜͜͡͡•fitnahpc
-║☆ۣۜۜ፝͜͜͡͡•kontak
-║☆ۣۜۜ፝͜͜͡͡•asupan
-║☆ۣۜۜ፝͜͜͡͡•viewonce
-║☆ۣۜۜ፝͜͜͡͡•detikvn number
-║☆ۣۜۜ፝͜͜͡͡•detikvideo number
-║☆ۣۜۜ፝͜͜͡͡•hbd [ 2005 11 10 ]
-╚══════════════►    
-╔══════════════►
-║*「TAG」*
-║☆ۣۜۜ፝͜͜͡͡•hidetag
-║☆ۣۜۜ፝͜͜͡͡•kontag
-║☆ۣۜۜ፝͜͜͡͡•sticktag
-║☆ۣۜۜ፝͜͜͡͡•totag
-╚══════════════►    
-╔══════════════►
-║*「OTHER」*
-║☆ۣۜۜ፝͜͜͡͡•ping
-║☆ۣۜۜ፝͜͜͡͡•inspect
-║☆ۣۜۜ፝͜͜͡͡•join
-║☆ۣۜۜ፝͜͜͡͡•dadu
-║☆ۣۜۜ፝͜͜͡͡•bilangangka number
-║☆ۣۜۜ፝͜͜͡͡•kalkulator
-║☆ۣۜۜ፝͜͜͡͡•pantun
-║☆ۣۜۜ፝͜͜͡͡•ss link web
-║☆ۣۜۜ፝͜͜͡͡•liriklagu <query>
-║☆ۣۜۜ፝͜͜͡͡•artinama <name>
-║☆ۣۜۜ፝͜͜͡͡•debug
-║☆ۣۜۜ፝͜͜͡͡•loli 
-║☆ۣۜۜ፝͜͜͡͡•debug2
-║☆ۣۜۜ፝͜͜͡͡•infogempa
-║☆ۣۜۜ፝͜͜͡͡•resepmasakan
-║☆ۣۜۜ፝͜͜͡͡•chat 62|P
-║☆ۣۜۜ፝͜͜͡͡•caripesan <query>
-║☆ۣۜۜ፝͜͜͡͡•get url
-║☆ۣۜۜ፝͜͜͡͡•githubstalk <query>
-║☆ۣۜۜ፝͜͜͡͡•ytsearch <query>
-║☆ۣۜۜ፝͜͜͡͡•igstalk <query>
-║☆ۣۜۜ፝͜͜͡͡•tiktokstalk <query>
-║☆ۣۜۜ፝͜͜͡͡•play <query>
-║☆ۣۜۜ፝͜͜͡͡•video <query>
-║☆ۣۜۜ፝͜͜͡͡•igstory <username>
-║☆ۣۜۜ፝͜͜͡͡•twitter <link>
-║☆ۣۜۜ፝͜͜͡͡•tiktok <link>
-║☆ۣۜۜ፝͜͜͡͡•tiktokaudio <link>
-║☆ۣۜۜ፝͜͜͡͡•fb <link>
-║☆ۣۜۜ፝͜͜͡͡•brainly <query>
-║☆ۣۜۜ፝͜͜͡͡•image <query>
-║☆ۣۜۜ፝͜͜͡͡•anime <random>
-║☆ۣۜۜ፝͜͜͡͡•pinterest <query>
-║☆ۣۜۜ፝͜͜͡͡•komiku <query>
-║☆ۣۜۜ፝͜͜͡͡•lirik <query>
-║☆ۣۜۜ፝͜͜͡͡•chara <query>
-║☆ۣۜۜ፝͜͜͡͡•playstore <query>
-║☆ۣۜۜ፝͜͜͡͡•otaku <query>
-╚══════════════►    
-╔══════════════►
-║*「JADI BOT」*
-║☆ۣۜۜ፝͜͜͡͡•jadibot
-║☆ۣۜۜ፝͜͜͡͡•stopjadibot
-║☆ۣۜۜ፝͜͜͡͡•listbot
-╚══════════════►
-╔══════════════►
-║*「STICKER CMD」*
-║☆ۣۜۜ፝͜͜͡͡•addcmd
-║☆ۣۜۜ፝͜͜͡͡•delcmd
-║☆ۣۜۜ፝͜͜͡͡•listcmd
-╚══════════════►
-╔══════════════►    
-║*「VOTE」*
-║☆ۣۜۜ፝͜͜͡͡•voting
-║☆ۣۜۜ፝͜͜͡͡•delvote
-║☆ۣۜۜ፝͜͜͡͡• vote
-║☆ۣۜۜ፝͜͜͡͡• devote
-╚══════════════►    
- *々INFO BOT々*
-🔖Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
-🔖Runtime : ${runtime(process.uptime())}
-🔖Hit Today : ${hit_today.length} Hit
-🔖Total Hit : ${totalhit} Hit
-🔖Total Chat : ${totalchat.length} Chat`, thumb, [
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒOWNERã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢off
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢isbaileys
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢banchat
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢unbanchat
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢listbc
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢antidelete on|off
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢autoketik on| off
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢autoread gc on / gc off
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢autovn on / off
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢antical on | off
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢getcaption
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢on
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢status
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢setthumb
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢settarget
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢setfakeimg
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢setreply
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢bugpc2
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢bugpc
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢bugcombine
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢buglokasi
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢bug [jumlah]
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢hacked
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢setprefix [2 Button]
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢mode [2 Button self/public]
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢term <code>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢eval <code>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢colongsw [reply sw]
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒGRUPã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢grup [3 Button]
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢promote <reply chat member>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢demote <reply chat member>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢setdesc
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢setname
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢kick <reply/tag member>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢add <reply/tag member>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢getbio <reply chat member>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢getname <reply chat member>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢reminder <msg/2s>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢listonline
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢sider [reply chat bot]
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢antilink
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tod 
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tospam jumlah
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢antihidetag
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢antiviewonce
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢autojoin
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢antivirtex
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢kickarea
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒMAKERã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢sticker
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢swm <author|packname>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢take <author|packname>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢fdeface
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢attp teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢fancytext teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢emoji
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢halloween teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢vampire teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢codetxt teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢matrix teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢googletxt teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢spiderman teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢express
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢teks teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢dance
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢nulis teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢text3d teks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢warrior teks
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒCONVERTã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢toimg
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tomp3
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tomp4
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢slow
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢fast
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢reverse
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tourl
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒDOWNLOADERã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tiktok <url>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢ytmp4 <url>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢play <url>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢ytmp3 <url>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢instagram <url>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢twitter <url>
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒUP STORYã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢upswteks
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢upswimage
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢upswvideo
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒFUNã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢fitnah
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢fitnahpc
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢kontak
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢asupan
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢viewonce
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢detikvn number
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢detikvideo number
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢hbd [ 2005 11 10 ]
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒTAGã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢hidetag
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢kontag
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢sticktag
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢totag
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒOTHERã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢ping
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢inspect
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢join
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢dadu
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢bilangangka number
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢kalkulator
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢pantun
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢ss link web
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢liriklagu <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢artinama <name>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢debug
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢loli 
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢debug2
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢infogempa
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢resepmasakan
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢chat 62|P
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢caripesan <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢get url
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢githubstalk <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢ytsearch <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢igstalk <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tiktokstalk <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢play <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢video <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢igstory <username>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢twitter <link>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tiktok <link>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢tiktokaudio <link>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢fb <link>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢brainly <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢image <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢anime <random>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢pinterest <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢komiku <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢lirik <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢chara <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢playstore <query>
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢otaku <query>
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒJADI BOTã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢jadibot
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢stopjadibot
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢listbot
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•‘*ã€ŒSTICKER CMDã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢addcmd
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢delcmd
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢listcmd
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+â•‘*ã€ŒVOTEã€*
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢voting
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢delvote
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢ vote
+â•‘â˜†Í¡ÍœÛœÛœÛ£áÍ¡Íœâ€¢ devote
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â–º    
+ *ã€…INFO BOTã€…*
+ðŸ”–Prefix : ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€
+ðŸ”–Runtime : ${runtime(process.uptime())}
+ðŸ”–Hit Today : ${hit_today.length} Hit
+ðŸ”–Total Hit : ${totalhit} Hit
+ðŸ”–Total Chat : ${totalchat.length} Chat`, thumb, [
           {
             buttonId: `${prefix}owner`,
             buttonText: {
-              displayText: `OWNER/CREATOR🐧`,
+              displayText: `OWNER/CREATORðŸ§`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}ping`,
             buttonText: {
-              displayText: `PING⚡`,
+              displayText: `PINGâš¡`,
             },
             type: 1,
           },
@@ -1413,7 +1413,7 @@ ${readmore}
         break;
 case 'auu': // by itsmevall
        reply('Enggak Kak')
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Mau Jawab Apa?`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Mau Jawab Apa?`, [
           {
             buttonId: `${prefix}oklah`,
             buttonText: {
@@ -1465,14 +1465,14 @@ case 'iggw':
   reply('https://instagram.com/WinBellz')
 break
       /*case "owner":
-        sendKontak(from, owner, "ItsMeVallッ", "Sibuk");*/
+        sendKontak(from, owner, "ItsMeVallãƒƒ", "Sibuk");*/
 case 'owner':
            case 'creator':
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Sibukk!!')
                await sleep(1000)
                haibg =`Hai Kak ${pushname}\nItu Ownerku, Mau tau soal apa ya?`
                buttons = [{buttonId: `${prefix}ytgw`,buttonText:{displayText: 'YOUTUBE'},type:1},{buttonId:`${prefix}iggw`,buttonText:{displayText:'INSTAGRAM'},type:1}]
-               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja Kak🗿 Jangan sungkan chat yah🥰', buttons: buttons, headerType: 1 }
+               buttonsMessage = { contentText: `${haibg}`, footerText: 'Kalo Mau Di Sv Chat Aja KakðŸ—¿ Jangan sungkan chat yahðŸ¥°', buttons: buttons, headerType: 1 }
                prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{})
                itsmevall.relayWAMessage(prep)
                break      
@@ -1524,11 +1524,11 @@ break
         fakestatus("Done!");
         break;
       case "listcmd":
-        teksnyee = `\`\`\`「 LIST STICKER CMD 」\`\`\``;
+        teksnyee = `\`\`\`ã€Œ LIST STICKER CMD ã€\`\`\``;
         cemde = [];
         for (let i of _scommand) {
           cemde.push(i.id);
-          teksnyee += `\n\n➸ *ID :* ${i.id}\n➸ *Cmd* : ${i.chats}`;
+          teksnyee += `\n\nâž¸ *ID :* ${i.id}\nâž¸ *Cmd* : ${i.chats}`;
         }
         mentions(teksnyee, cemde, true);
         break;
@@ -1751,7 +1751,7 @@ reply(`Succes mematikan autoread pc`)
 reply(`Pilih on atau off`)
 }
 } else {
-reply(`*List Auto Read*\n•> gc\n•> pc`)
+reply(`*List Auto Read*\nâ€¢> gc\nâ€¢> pc`)
 }
 break
       case "autojoin":
@@ -1865,9 +1865,9 @@ break
           ];
           itsmevall.reply(
             m.chat,
-            "┌─〔 Daftar Online 〕\n" +
-              online.map((v) => "├ @" + v.replace(/@.+/, "")).join`\n` +
-              "\n└────",
+            "â”Œâ”€ã€” Daftar Online ã€•\n" +
+              online.map((v) => "â”œ @" + v.replace(/@.+/, "")).join`\n` +
+              "\nâ””â”€â”€â”€â”€",
             m,
             {
               contextInfo: { mentionedJid: online },
@@ -1998,7 +1998,7 @@ ${members > 1 ? `${members - reads.length - deliveries.length} tersisa` : ""}
         buffergbl = await getBuffer(ppUrl);
         itsmevall.sendMessage(from, buffergbl, image, {
           quoted: mek,
-          caption: `\`\`\`「 Group Info 」\`\`\`\n*•> Name* : ${groupName}\n*•> Member* : ${groupMembers.length}\n*•> Admin* : ${groupAdmins.length}\n*•> Description* : \n${groupDesc}`,
+          caption: `\`\`\`ã€Œ Group Info ã€\`\`\`\n*â€¢> Name* : ${groupName}\n*â€¢> Member* : ${groupMembers.length}\n*â€¢> Admin* : ${groupAdmins.length}\n*â€¢> Description* : \n${groupDesc}`,
         });
         break;
       // Demote Admins
@@ -2131,15 +2131,15 @@ if (Number(oi2) >= 50) return reply('Kebanyakan!')
         if (!isQuotedImage && !isQuotedSticker && !isQuotedAudio) {
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Text
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Text
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2149,11 +2149,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               itsmevall.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -2174,15 +2174,15 @@ Reminder berhasil diaktifkan!
           media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Sticker
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Sticker
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2192,11 +2192,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               itsmevall.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -2220,15 +2220,15 @@ Reminder berhasil diaktifkan!
           media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Image
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Image
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2236,11 +2236,11 @@ Reminder berhasil diaktifkan!
           const intervRemind = setInterval(async () => {
             if (Date.now() >= reminder.getReminderTime(sender, _reminder)) {
               anu = await reminder.getReminderMsg(sender, _reminder);
-              teks = `── 「 REMINDER 」 ──
+              teks = `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`;
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`;
               itsmevall.sendMessage(from, media, image, {
                 contextInfo: { mentionedJid: [sender] },
                 caption: teks,
@@ -2262,15 +2262,15 @@ Reminder berhasil diaktifkan!
           media = await itsmevall.downloadAndSaveMediaMessage(encmedia);
           await itsmevall.sendMessage(
             from,
-            `── 「 REMINDER 」 ──
+            `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
     
 Reminder berhasil diaktifkan!
-➸ Pesan: ${messRemind}
-➸ Type: Audio
-➸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
+âž¸ Pesan: ${messRemind}
+âž¸ Type: Audio
+âž¸ Durasi: ${parsedTime.hours} jam ${parsedTime.minutes} menit ${
               parsedTime.seconds
             } detik
-➸ Untuk: @${sender.split("@")[0]}
+âž¸ Untuk: @${sender.split("@")[0]}
     `,
             text,
             { contextInfo: { mentionedJid: [sender] } }
@@ -2280,11 +2280,11 @@ Reminder berhasil diaktifkan!
               anu = await reminder.getReminderMsg(sender, _reminder);
               itsmevall.sendMessage(
                 from,
-                `── 「 REMINDER 」 ──
+                `â”€â”€ ã€Œ REMINDER ã€ â”€â”€
 
-⏰ @${sender.split("@")[0]} ⏰
-➸ Pesan: ${messRemind}
-➸ Type: ${reminder.getReminderType(sender, _reminder)}`,
+â° @${sender.split("@")[0]} â°
+âž¸ Pesan: ${messRemind}
+âž¸ Type: ${reminder.getReminderType(sender, _reminder)}`,
                 text,
                 { contextInfo: { mentionedJid: [sender] } }
               );
@@ -2329,7 +2329,7 @@ case 'ytgw':
 					break
 case 'harta':
   reply(mess.wait)
-  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/chartatahta?text=${args[0]}&apikey=${HunterApi}`, `Ni 🗿`)
+  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/chartatahta?text=${args[0]}&apikey=${HunterApi}`, `Ni ðŸ—¿`)
   break
  case '+62':
 reply(mess.wait)
@@ -2433,7 +2433,7 @@ reply('Sukses send bug sebanyak '+args.join(' '))
         stopjadibot(reply);
         break;
       case "listbot":
-        let tekss = "「 *LIST JADIBOT* 」\n";
+        let tekss = "ã€Œ *LIST JADIBOT* ã€\n";
         for (let i of listjadibot) {
           tekss += `*Nomor* : ${i.jid.split("@")[0]}
 *Nama* : ${i.name}
@@ -2600,7 +2600,7 @@ const ageD = new Date(d - date)
 const age = ageD.getFullYear() - new Date(1970, 0, 1).getFullYear()
 
 const birthday = [tahun + (birth[1] < bulan), ...birth.slice(1)]
-const cekusia = bulan === birth[1] && tanggal === birth[2] ? `Happy -${age}th Birthday 🥳🎉` : age
+const cekusia = bulan === birth[1] && tanggal === birth[2] ? `Happy -${age}th Birthday ðŸ¥³ðŸŽ‰` : age
 
 const teksh = `
 Birth : ${birth.join('-')}
@@ -2615,7 +2615,7 @@ break
 			 res = await itsmevall.prepareMessageFromContent(from,{
 "templateMessage": {
 						"hydratedTemplate": {
-							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jam} - ${week} ${weton} - ${date}`,
+							"hydratedContentText": `Hi ${pushname} ðŸ‘‹,\n\n${jam} - ${week} ${weton} - ${date}`,
 							"hydratedFooterText": `${fakeyoi}`,
 							"hydratedButtons": [
 								{
@@ -2662,7 +2662,7 @@ case 'debug2':
     ]
   },
   "hydratedTemplate": {
-    "hydratedContentText": `Hi ${pushname} 👋,\n\n${jam} - ${week} ${weton} - ${date}`,
+    "hydratedContentText": `Hi ${pushname} ðŸ‘‹,\n\n${jam} - ${week} ${weton} - ${date}`,
     "hydratedFooterText": `${fakeyoi}`,
     "hydratedButtons": [
       {
@@ -2685,12 +2685,12 @@ break
             "listMessage" :{
               "title": `${ucapanWaktu} kak ${pushname}\n ini adalah bot Gw:v`,
               "description": `bot ini berjalan selama \n${runtime(process.uptime())}`,
-              "buttonText": "click here👈",
+              "buttonText": "click hereðŸ‘ˆ",
               /*"footerText": '@WinBellz',
               "listType": "SINGLE_SELECT",
               "sections": [{
               "footerText": '@WinBell',
-                "title": `Prefix Bot :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`,
+                "title": `Prefix Bot :ã€Œ ${prefixStatus ? "Multi Prefix" : "No Prefix"} ã€`,
                 "rows": [{
                     "title": "+62",
                     "rowId": "0",
@@ -2730,18 +2730,18 @@ break
         ]);
         break;
 case "asupan": // by itsmevall
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan pilih Asupannya Kak✨`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan pilih Asupannya Kakâœ¨`, [
           {
             buttonId: `${prefix}+62`,
             buttonText: {
-              displayText: `🔖 Asupan +62`,
+              displayText: `ðŸ”– Asupan +62`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}ghea`,
             buttonText: {
-              displayText: `🔖 Asupan Ghea`,
+              displayText: `ðŸ”– Asupan Ghea`,
             },
             type: 1,
           },
@@ -2755,18 +2755,18 @@ case "asupan": // by itsmevall
         ]);
         break;
 case "asupan2": // by itsmevall
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan pilih Asupannya V.2 kak✨`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan pilih Asupannya V.2 kakâœ¨`, [
           {
             buttonId: `${prefix}santuy`,
             buttonText: {
-              displayText: `🔖 Asupan Santuy`,
+              displayText: `ðŸ”– Asupan Santuy`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}bocil`,
             buttonText: {
-              displayText: `🔖 Asupan Bocil`,
+              displayText: `ðŸ”– Asupan Bocil`,
             },
             type: 1,
           },
@@ -2780,25 +2780,25 @@ case "asupan2": // by itsmevall
         ]);
         break;
 case "asupan3": // by itsmevall
-        sendButMessage(from, `Hai Kak ${pushname} 🐤`, `Silahkan pilih Asupannya V.3 kak✨`, [
+        sendButMessage(from, `Hai Kak ${pushname} ðŸ¤`, `Silahkan pilih Asupannya V.3 kakâœ¨`, [
           {
             buttonId: `${prefix}rikagusriani`,
             buttonText: {
-              displayText: `🔖 Asupan Rikagusriani`,
+              displayText: `ðŸ”– Asupan Rikagusriani`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}ukhti`,
             buttonText: {
-              displayText: `🔖 Asupan Ukhti`,
+              displayText: `ðŸ”– Asupan Ukhti`,
             },
             type: 1,
           },
           {
             buttonId: `${prefix}ytgw`,
             buttonText: {
-              displayText: `SUBSCRIBE CHANEL SAYA KACK🤗`,
+              displayText: `SUBSCRIBE CHANEL SAYA KACKðŸ¤—`,
             },
             type: 1,
           },
@@ -2845,7 +2845,7 @@ case "asupan3": // by itsmevall
         var a = bv.result.media_metadata;
         sendButImage(
           from,
-          `⚜️ *Nickname*: ${b.username}\n❤️ *Like*: ${a.stats.diggCount}\n💬 *Komentar*: ${a.stats.commentCount}\n🔁 *Share*: ${a.stats.shareCount}\n🎞️ *Views*: ${a.stats.playCount}`,
+          `âšœï¸ *Nickname*: ${b.username}\nâ¤ï¸ *Like*: ${a.stats.diggCount}\nðŸ’¬ *Komentar*: ${a.stats.commentCount}\nðŸ” *Share*: ${a.stats.shareCount}\nðŸŽžï¸ *Views*: ${a.stats.playCount}`,
           `Silahkan pilih salah satu format yg mau didownload`,
           tamnel,
           [
@@ -2972,7 +2972,7 @@ case "asupan3": // by itsmevall
               id.split("@")[0] +
               " Di Mulai" +
               "\n\n" +
-              `vote = ✅\ndevote = ❌\n\nAlasan: ${split[1]}`,
+              `vote = âœ…\ndevote = âŒ\n\nAlasan: ${split[1]}`,
             [id],
             true
           );
@@ -2982,7 +2982,7 @@ case "asupan3": // by itsmevall
       case "linkwa":
         if (!q) return reply("cari group apa?");
         hx.linkwa(q).then((result) => {
-          let res = "*「 _LINK WA_ 」*\n\n";
+          let res = "*ã€Œ _LINK WA_ ã€*\n\n";
           for (let i of result) {
             res += `*Nama*: *${i.nama}\n*Link*: ${i.link}\n\n`;
           }
@@ -3165,13 +3165,13 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
       case "playstore":
         if (!q) return reply("lu nyari apa?");
         let play = await hx.playstore(q);
-        let store = "❉─────────────────────❉\n";
+        let store = "â‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n";
         for (let i of play) {
-          store += `\n*「 _PLAY STORE_ 」*\n
+          store += `\n*ã€Œ _PLAY STORE_ ã€*\n
 - *Nama* : ${i.name}
 - *Link* : ${i.link}\n
 - *Dev* : ${i.developer}
-- *Link Dev* : ${i.link_dev}\n❉─────────────────────❉`;
+- *Link Dev* : ${i.link_dev}\nâ‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰`;
         }
         reply(store);
         break;
@@ -3627,9 +3627,9 @@ case 'waifu':
               let wipu = (await axios.get(`https://raw.githubusercontent.com/Arya-was/endak-tau/main/${command}.json`)).data
               let wipi = wipu[Math.floor(Math.random() * (wipu.length))]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
-		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'🐤OWNER'},type:1}]
+		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `âž¡ï¸Next`},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'ðŸ¤OWNER'},type:1}]
               imageMsg = ( await itsmevall.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak ☕', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Jangan Lupa Donasi Ya Kak â˜•', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               itsmevall.relayWAMessage(prep)
@@ -3650,7 +3650,7 @@ case 'attp':
 				if (args.length < 1) return reply('Judulnya?')
 				var teks = body.slice(14)
 				anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/resepmakanan?query=${teks}&apikey=${HunterApi}`, {method: 'get'})
-					hasilresep = `❏ *${anu.results.title}*\n\n❏ Porsi : ${anu.results.servings}\n❏ Waktu : ${anu.results.times}\n❏ Kesulitan : ${anu.results.dificulty}\n❏ Pengguna : ${anu.results.author.user}\n❏ Tanggal Diterbitkan : ${anu.results.author.datePublished}\n❏ Deskripsi : ${anu.results.desc}\n\n────────────────────\n❏ *Tutorial*\n\n❏ Bahan : ${anu.results.ingredient}\n❏ Langkah : ${anu.results.step}`
+					hasilresep = `â *${anu.results.title}*\n\nâ Porsi : ${anu.results.servings}\nâ Waktu : ${anu.results.times}\nâ Kesulitan : ${anu.results.dificulty}\nâ Pengguna : ${anu.results.author.user}\nâ Tanggal Diterbitkan : ${anu.results.author.datePublished}\nâ Deskripsi : ${anu.results.desc}\n\nâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\nâ *Tutorial*\n\nâ Bahan : ${anu.results.ingredient}\nâ Langkah : ${anu.results.step}`
 					reply(mess.wait)
 					buff = await getBuffer(anu.results.thumb)
 					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: hasilresep})
@@ -3659,14 +3659,14 @@ case 'attp':
 					if (args.length < 1) return reply('Usernamenya?')
 					var teks = body.slice(13)
 					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/stalk/github?user=${teks}&apikey=${HunterApi}`, {method: 'get'})
-					gstalk = `❏ *GITHUB STALK*\n\n❏ Name : ${anu.result.name}\n❏ Followers : ${anu.result.followers}\n❏ Following : ${anu.result.following}\n❏ Id : ${anu.result.id}\n❏ Node Id : ${anu.result.node_id}\n❏ Type : ${anu.result.type}\n❏ Company : ${anu.result.company}\n❏ Location : ${anu.result.location}\n❏ Bio : ${anu.result.bio}\n❏ Site Admin : ${anu.result.site_admin}\n❏ Email : ${anu.result.email}\n❏ Created At : ${anu.result.created_at}\n❏ Updated At : ${anu.result.updated_at}\n❏ Twitter Username : ${anu.result.twitter_username}\n❏ Blog : ${anu.result.blog}\n❏ Avatar Url : ${anu.result.avatar_url}\n❏ Gravatar Id : ${anu.result.gravatar_id}\n❏ Html Url : ${anu.result.html_url}`
+					gstalk = `â *GITHUB STALK*\n\nâ Name : ${anu.result.name}\nâ Followers : ${anu.result.followers}\nâ Following : ${anu.result.following}\nâ Id : ${anu.result.id}\nâ Node Id : ${anu.result.node_id}\nâ Type : ${anu.result.type}\nâ Company : ${anu.result.company}\nâ Location : ${anu.result.location}\nâ Bio : ${anu.result.bio}\nâ Site Admin : ${anu.result.site_admin}\nâ Email : ${anu.result.email}\nâ Created At : ${anu.result.created_at}\nâ Updated At : ${anu.result.updated_at}\nâ Twitter Username : ${anu.result.twitter_username}\nâ Blog : ${anu.result.blog}\nâ Avatar Url : ${anu.result.avatar_url}\nâ Gravatar Id : ${anu.result.gravatar_id}\nâ Html Url : ${anu.result.html_url}`
 					reply(mess.wait)
 					buff = await getBuffer(anu.result.avatar_url)
 					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: gstalk})
 					break 
 					case 'infogempa':
 					anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/info/gempa?apikey=${HunterApi}`, {method: 'get'})
-					gempa = `❏ *INFO GEMPA*\n\n❏ Waktu : ${anu.result.Waktu}\n❏ Lintang : ${anu.result.Lintang}\n❏ Bujur : ${anu.result.Bujur}\n❏ Magnitudo : ${anu.result.Magnitudo}\n❏ Kedalaman : ${anu.result.Kedalaman}\n❏ Wilayah : ${anu.result.Wilayah}`
+					gempa = `â *INFO GEMPA*\n\nâ Waktu : ${anu.result.Waktu}\nâ Lintang : ${anu.result.Lintang}\nâ Bujur : ${anu.result.Bujur}\nâ Magnitudo : ${anu.result.Magnitudo}\nâ Kedalaman : ${anu.result.Kedalaman}\nâ Wilayah : ${anu.result.Wilayah}`
 					reply(mess.wait)
 					buff = await getBuffer(anu.result.Map)
 					itsmevall.sendMessage(from, buff, image, {quoted: ftok, caption: gempa})
@@ -3900,7 +3900,7 @@ break
         if (banChats === false) return;
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = false;
-        replyfakelink(`「 *PUBLIC-MODE* 」`);
+        replyfakelink(`ã€Œ *PUBLIC-MODE* ã€`);
         break;
       case "self":
         if (!mek.key.fromMe) return replyfakelink("SELF-BOT");
@@ -3908,7 +3908,7 @@ break
         uptime = process.uptime();
         // var taged = mek.message.extendedTextMessage.contextInfo.mentionedJid[0]
         banChats = true;
-        replyfakelink(`「 *SELF-MODE* 」`);
+        replyfakelink(`ã€Œ *SELF-MODE* ã€`);
         break;
       case "hidetag":
         if (!mek.key.fromMe) return replyfakelink("SELF-BOT");
@@ -4075,7 +4075,7 @@ break
         }
         break;
       case "toimg":
-        if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰𝗸𝗲𝗿 !");
+        if (!isQuotedSticker) return reply("ð—¥ð—²ð—½ð—¹ð˜†/ð˜ð—®ð—´ ð˜€ð˜ð—¶ð—°ð—¸ð—²ð—¿ !");
         replyfakelink(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
           .message.extendedTextMessage.contextInfo;
@@ -4105,16 +4105,16 @@ break
         aramat = aramas.all;
         var tbuff = await getBuffer(aramat[0].image);
         var ytresult = "";
-        ytresult += "「 *YOUTUBE SEARCH* 」";
+        ytresult += "ã€Œ *YOUTUBE SEARCH* ã€";
         ytresult += "\n________________________\n\n";
         aramas.all.map((video) => {
-          ytresult += "❏ Title: " + video.title + "\n";
-          ytresult += "❏ Link: " + video.url + "\n";
-          ytresult += "❏ Durasi: " + video.timestamp + "\n";
+          ytresult += "â Title: " + video.title + "\n";
+          ytresult += "â Link: " + video.url + "\n";
+          ytresult += "â Durasi: " + video.timestamp + "\n";
           ytresult +=
-            "❏ Upload: " + video.ago + "\n________________________\n\n";
+            "â Upload: " + video.ago + "\n________________________\n\n";
         });
-        ytresult += "◩ *SELF-BOT*";
+        ytresult += "â—© *SELF-BOT*";
         await fakethumb(tbuff, ytresult);
         break;
       case "setreply":
@@ -4252,9 +4252,9 @@ break
         if (args.length < 1) return reply("Pertanyaan apa");
         brien = args.join(" ");
         brainly(`${brien}`).then((res) => {
-          teks = "❉───────────────────────❉\n";
+          teks = "â‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n";
           for (let Y of res.data) {
-            teks += `\n*「 _BRAINLY_ 」*\n\n*➸ Pertanyaan:* ${Y.pertanyaan}\n\n*➸ Jawaban:* ${Y.jawaban[0].text}\n❉──────────────────❉\n`;
+            teks += `\n*ã€Œ _BRAINLY_ ã€*\n\n*âž¸ Pertanyaan:* ${Y.pertanyaan}\n\n*âž¸ Jawaban:* ${Y.jawaban[0].text}\nâ‰â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â‰\n`;
           }
           itsmevall.sendMessage(from, teks, text, {
             quoted: mek,
@@ -4580,43 +4580,43 @@ itsmevall.sendMessage(from, stdout, text, term)
 
       default:
 		if (hour_now >= '02:00' && hour_now <= '04:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Waktunya sahur kak, Main botnya buat nanti lagi, Sebelum makan jangan lupa baca Doa ya kak', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Waktunya sahur kak, Main botnya buat nanti lagi, Sebelum makan jangan lupa baca Doa ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
           }
         if (hour_now >= '04:00' && hour_now <= '05:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 5 nih kak, Jangan lupa sholat subuh ya kak', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 5 nih kak, Jangan lupa sholat subuh ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
           }
           if (hour_now >= '05:00' && hour_now <= '06:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Udah sholat Subuh belum kak', 'yellow'), color('(🙄)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Udah sholat Subuh belum kak', 'yellow'), color('(ðŸ™„)', 'white'))
           }
         if (hour_now >= '06:00' && hour_now <= '11:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Pagi kak, Jangan lupa mandi', 'yellow'), color('(😅)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Pagi kak, Jangan lupa mandi', 'yellow'), color('(ðŸ˜…)', 'white'))
           }
           if (hour_now >= '11:00' && hour_now <= '12:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Siang kak, Dah mandi blm kak?', 'yellow'), color('(🙄)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Siang kak, Dah mandi blm kak?', 'yellow'), color('(ðŸ™„)', 'white'))
           }
           if (hour_now >= '12:00' && hour_now <= '14:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 12 kak, Jangan lupa sholat Dzuhur ya kak', 'yellow'), color('(😊)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 12 kak, Jangan lupa sholat Dzuhur ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
            }
         if (hour_now >= '14:00' && hour_now <= '15:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Sore kak, Jangan lupa mandi', 'yellow'), color('(😅)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Sore kak, Jangan lupa mandi', 'yellow'), color('(ðŸ˜…)', 'white'))
           }
         if (hour_now >= '15:00' && hour_now <= '16:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 3 kak, Jangan lupa sholat Ashar ya kak', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Dah jam 3 kak, Jangan lupa sholat Ashar ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
           }
         if (hour_now >= '17:00' && hour_now <= '18:00') {
-          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi buka kak, Sabar ya kak', 'yellow'), color('(😆)', 'white'))
+          console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi buka kak, Sabar ya kak', 'yellow'), color('(ðŸ˜†)', 'white'))
           }
         if (hour_now >= '18:00' && hour_now <= '19:00') {
-        	console.log(color('[Pesan Bot]', 'cyan'), color('Alhamdulillah, Dah buka kak, Puasanya dibatalin dulu kak, Sebelum makan jangan lupa baca doa kak, Setelah makan langsung sholat Maghrib ya kak', 'yellow'), color('(😊)', 'white'))
+        	console.log(color('[Pesan Bot]', 'cyan'), color('Alhamdulillah, Dah buka kak, Puasanya dibatalin dulu kak, Sebelum makan jangan lupa baca doa kak, Setelah makan langsung sholat Maghrib ya kak', 'yellow'), color('(ðŸ˜Š)', 'white'))
         }
         if (hour_now >= '19:00' && hour_now <= '20:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 8 kak, Yok kak main botnya buat nanti lagi, Sekarang siap-siap dulu buat Sholat Tarawih', 'yellow'), color('(😊)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('Bentar lagi jam 8 kak, Yok kak main botnya buat nanti lagi, Sekarang siap-siap dulu buat Sholat Tarawih', 'yellow'), color('(ðŸ˜Š)', 'white'))
            }
         if (hour_now >= '20:00' && hour_now <= '00:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('Selamat malam kak, Jangan begadang ya kak, Tar sakit loh', 'yellow'), color('(😄)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('Selamat malam kak, Jangan begadang ya kak, Tar sakit loh', 'yellow'), color('(ðŸ˜„)', 'white'))
         }
           if (hour_now >= '00:00' && hour_now <= '02:00') {
-           console.log(color('[Pesan Bot]', 'cyan'), color('ManikBot ngantuk kak, tidur dulu ya kak', 'yellow'), color('(😴)', 'white'))
+           console.log(color('[Pesan Bot]', 'cyan'), color('ManikBot ngantuk kak, tidur dulu ya kak', 'yellow'), color('(ðŸ˜´)', 'white'))
         }
 
      if (!mek.key.fromMe) return;
@@ -4651,4 +4651,4 @@ itsmevall.sendMessage(from, stdout, text, term)
     // console.log(e)
   }
 };
-// Sekian Dari Gw Assamualaikum 🙂
+// Sekian Dari Gw Assamualaikum ðŸ™‚
