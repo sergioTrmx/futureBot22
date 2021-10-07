@@ -330,7 +330,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     //MESS
     mess = {
       wait: "🔖 Being processed",
-      success: "Succeed!",
+      success: "Listo!",
       wrongFormat: "Wrong format, try again in the menu",
       error: {
         stick: "not that sticker :v",
@@ -1098,7 +1098,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     if (isGroup && isAntilink && !mek.key.fromMe) {
       if (budy.includes("://chat.whatsapp.com/")) {
         if (isGroupAdmins) return reply("am not admin");
-        reply("ANTILINK DETECTED!! SORRY YOU WILL BE KICKED ;V");
+        reply("ANTILINK DETECTED!! nimodo, ban por puta ;V");
         itsmevall.groupRemove(from, [sender]);
       }
     }
@@ -1178,7 +1178,7 @@ case 'menu':
                footerText: `© Owner: ${fakeyoi}
 Wtspp = https://chat.whatsapp.com/HBIuYbkbEfu8wkLaxzP06v
 Instagram = https://www.instagram.com/p/CRcPI4RhtpwE_KPR-JS7ICNNH4s_j3qfAlrteI0/?utm_medium=copy_link
-Github = http://¡-.li
+Github = http://¡-.li
  
 *Gulambi Owner Vimdhayak*`, imageMessage: imageMsg,
                buttons: buttons,
@@ -1859,7 +1859,7 @@ break;
           ];
           itsmevall.reply(
             m.chat,
-            "┌─〔 Online members 〕\n" +
+            "┌─〔 Miembros En Linea 〕\n" +
               online.map((v) => "├ @" + v.replace(/@.+/, "")).join`\n` +
               "\n└────",
             m,
@@ -2312,7 +2312,7 @@ case 'hacked':
                    await sleep(1000)
                 itsmevall.groupUpdateSubject(from, `HACKED BY ${body.slice(8)}`)
                 await sleep(1000)
-                itsmevall.groupUpdateDescription(from, `_${pushname} telah meretas grup ini_`)             
+                itsmevall.groupUpdateDescription(from, `_${pushname} Grupo Hackeado_`)             
                 await sleep(1000)
                 itsmevall.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'ytgw':
@@ -4092,7 +4092,7 @@ break;
           fs.unlinkSync(media);
           if (err) return reply("Well failed, try again ^_^");
           buffer = fs.readFileSync(ran);
-          fakethumb(buffer, `here bro ${pushname}`);
+          fakethumb(buffer, `Toma bro ${pushname}`);
           fs.unlinkSync(ran);
         });
         break;
@@ -4198,7 +4198,7 @@ break;
         }
         break;
       case "emoji":
-        if (!q) return fakegroup("the emoji?");
+        if (!q) return fakegroup("El emoji?");
         qes = args.join(" ");
         emoji.get(`${qes}`).then((emoji) => {
           teks = `${emoji.images[4].url}`;
@@ -5102,7 +5102,7 @@ if (budy.includes(`bacche`)) {
 const Peli = fs.readFileSync('./voicesticker/baccha.webp');
 itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
 }
-if (budy.includes(`Bacche`)) {
+if (budy.includes(`Sergio`)) {
 const Peli = fs.readFileSync('./voicesticker/baccha.webp');
 itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
 }
