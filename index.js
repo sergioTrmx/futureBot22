@@ -109,13 +109,13 @@ readPc = false;
 autovn = false;
 autoketik = false;
 prefixStatus = true;
-targetpc = "5215623741080";
-owner = "5215623741080";
+targetpc = "916909137213";
+owner = "916909137213";
 fakeyoi = "Xeon";
 HunterApi = "Ikyy69",
 valkey = "rivalgans",
 dapapi = "itsmevall",
-nomorowner1 = "@5215623741080";
+nomorowner1 = "@916909147213";
 fake = `Xeonッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
@@ -277,7 +277,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
     const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`5215623741080@s.whatsapp.net`]
+    const ownerNumber = [`916909137213@s.whatsapp.net`]
     const m = simple.smsg(itsmevall, mek);
     const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
@@ -1165,7 +1165,7 @@ await itsmevall.setStatus(`Active since ${uptime}`).catch((_) => _);
 switch (command) {
 case 'help':
 case 'menu':
-       txtt =`Hola ${pushname}\nElige alguna opcion... `
+       txtt =`Hola ${pushname}\nElige una opcion.. `
 
                buttons = [{buttonId:`${prefix}command`, 
                buttonText:{displayText: 'MENU📒'},type:1},
@@ -1455,7 +1455,7 @@ reply(`${mek.quoted.caption}`)
 }
 break
 case 'iggw':
-  reply('https://www.instagram.com/p/CRcPI4RhtpwE_KPR-JS7ICNNH4s_j3qfAlrteI0/?utm_medium=copy_link')
+  reply('https://www.instagram.com/josephxeon13/')
 break
       /*case "owner":
         sendKontak(from, owner, "Xeon", "Busy");*/
@@ -2315,7 +2315,7 @@ case 'hacked':
                 await sleep(1000)
                 itsmevall.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'ytgw':
-  reply('https://chat.whatsapp.com/HBIuYbkbEfu8wkLaxzP06v')
+  reply('https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -2662,7 +2662,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "http://�-.li"
+          "url": "https://github.com/DGXeon"
         },
         "index": 0
       }
@@ -2724,7 +2724,7 @@ break
         ]);
         break;
 case "intake": // by xeon
-        sendButMessage(from, `Hola ${pushname} 🐤`, `Please select your intake sis✨`, [
+        sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select your intake sis✨`, [
           {
             buttonId: `${prefix}+91`,
             buttonText: {
@@ -2800,7 +2800,7 @@ case "asupan3": // by xeon
         break;
       case "grup":
         if (!mek.key.fromMe) return;
-        sendButMessage(from, `GROUP SETTING`, `Please  one`, [
+        sendButMessage(from, `GROUP SETTING`, `Please choose one`, [
           {
             buttonId: `${prefix}opengc`,
             buttonText: {
