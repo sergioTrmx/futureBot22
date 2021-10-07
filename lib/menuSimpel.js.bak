@@ -30,7 +30,7 @@ Date : ${date}
  •${prefix}setleft
  •${prefix}delleft
 
-*Bot Creator By ©Xeon`
+*Bot Creator By @sxrgxx.02`
 }
 
 exports.menus = menus
