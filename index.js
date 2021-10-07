@@ -1178,7 +1178,7 @@ case 'menu':
                footerText: `© Owner: ${fakeyoi}
 Wtspp = https://chat.whatsapp.com/HBIuYbkbEfu8wkLaxzP06v
 Instagram = https://www.instagram.com/p/CRcPI4RhtpwE_KPR-JS7ICNNH4s_j3qfAlrteI0/?utm_medium=copy_link
-Github = http://¡-.li
+Github = http://¡-.li
  
 *Gulambi Owner Vimdhayak*`, imageMessage: imageMsg,
                buttons: buttons,
