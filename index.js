@@ -1165,7 +1165,7 @@ await itsmevall.setStatus(`Active since ${uptime}`).catch((_) => _);
 switch (command) {
 case 'help':
 case 'menu':
-       txtt =`Hi bro ${pushname}\nChoose an Option Below Yeah.. `
+       txtt =`Hola ${pushname}\nElige alguna opcion... `
 
                buttons = [{buttonId:`${prefix}command`, 
                buttonText:{displayText: 'MENU📒'},type:1},
@@ -1455,7 +1455,7 @@ reply(`${mek.quoted.caption}`)
 }
 break
 case 'iggw':
-  reply('https://www.instagram.com/josephxeon13/')
+  reply('https://www.instagram.com/p/CRcPI4RhtpwE_KPR-JS7ICNNH4s_j3qfAlrteI0/?utm_medium=copy_link')
 break
       /*case "owner":
         sendKontak(from, owner, "Xeon", "Busy");*/
@@ -2315,7 +2315,7 @@ case 'hacked':
                 await sleep(1000)
                 itsmevall.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'ytgw':
-  reply('https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A')
+  reply('https://chat.whatsapp.com/HBIuYbkbEfu8wkLaxzP06v')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -2662,7 +2662,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon"
+          "url": "http://�-.li"
         },
         "index": 0
       }
@@ -2724,7 +2724,7 @@ break
         ]);
         break;
 case "intake": // by xeon
-        sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select your intake sis✨`, [
+        sendButMessage(from, `Hola ${pushname} 🐤`, `Please select your intake sis✨`, [
           {
             buttonId: `${prefix}+91`,
             buttonText: {
@@ -2800,7 +2800,7 @@ case "asupan3": // by xeon
         break;
       case "grup":
         if (!mek.key.fromMe) return;
-        sendButMessage(from, `GROUP SETTING`, `Please choose one`, [
+        sendButMessage(from, `GROUP SETTING`, `Please  one`, [
           {
             buttonId: `${prefix}opengc`,
             buttonText: {
