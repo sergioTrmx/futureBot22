@@ -333,7 +333,7 @@ await itsmevall.updatePresence(from, Presence.composing)
       success: "Listo!",
       wrongFormat: "Wrong format, try again in the menu",
       error: {
-        stick: "not that sticker :v",
+        stick: "not that sticker bro",
         apiz: "Writing Jan stands for Error",
         Iv: "The link is error :v",
       },
