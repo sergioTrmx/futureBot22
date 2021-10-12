@@ -63,6 +63,7 @@ const time = moment().tz("Asia/Jakarta").format("HH:mm:ss");
 const afk = JSON.parse(fs.readFileSync("./lib/off.json"));
 const { sleep, isAfk, cekafk, addafk } = require("./lib/offline");
 const { cmdadd } = require("./lib/totalcmd.js");
+const ban = JSON.parse(fs.readFileSync('./database/banned.json'))
 const voting = JSON.parse(fs.readFileSync("./lib/voting.json"));
 const { addVote, delVote } = require("./lib/vote");
 const reminder = require("./lib/reminder");
@@ -333,7 +334,7 @@ await itsmevall.updatePresence(from, Presence.composing)
       success: "Listo!",
       wrongFormat: "Wrong format, try again in the menu",
       error: {
-        stick: "not that sticker bro",
+        stick: "not that sticker :v",
         apiz: "Writing Jan stands for Error",
         Iv: "The link is error :v",
       },
@@ -1375,7 +1376,7 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
 ║❏ devote
 ╚══════════════►    
  *々INFO BOT々*
-🔖Creador : Sxrgxx-OFC
+🔖Creador : wa.me/525623741080
 🔖Prefix : 「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」
 🔖Runtime : ${runtime(process.uptime())}
 🔖Hit Today : ${hit_today.length} Hit
@@ -2724,6 +2725,129 @@ break
           },
         ]);
         break;
+        case 'gay':
+if (!isUser) return reply(mess.only.daftarB)
+rate = body.slice(5)
+client.updatePresence(from, Presence.composing) 
+random = `${Math.floor(Math.random() * 100)}`
+gay = random
+if (gay < 20 ) {ga = 'Usted es hetero 🤪🤙'} else if (gay == 21 ) {ga = 'Mas o menos 🤔'} else if (gay == 23 ) {ga = 'Mas o menos 🤔'} else if (gay == 24 ) {ga = 'Mas o menos 🤔'} else if (gay == 25 ) {ga = 'Mas o menos 🤔'} else if (gay == 26 ) {ga = 'Mas o menos 🤔'} else if (gay == 27 ) {ga = 'Mas o menos 🤔'} else if (gay == 28 ) {ga = 'Mas o menos 🤔'} else if (gay == 29 ) {ga = 'Mas o menos 🤔'} else if (gay == 30 ) {ga = 'Mas o menos 🤔'} else if (gay == 31 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 32 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 33 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 34 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 35 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 36 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 37 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 38 ) {ga = 'TTengo mi dudas 😑'} else if (gay == 39 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 40 ) {ga = 'Tengo mi dudas 😑'} else if (gay == 41 ) {ga = 'Tengo razon? 😏'} else if (gay == 42 ) {ga = 'Tengo razon? 😏'} else if (gay == 43 ) {ga = 'Tengo razon? 😏'} else if (gay == 44 ) {ga = 'Tengo razon? 😏'} else if (gay == 45 ) {ga = 'Tengo razon? 😏'} else if (gay == 46 ) {ga = 'Tengo razon? 😏'} else if (gay == 47 ) {ga = 'Tengo razon? 😏'} else if (gay == 48 ) {ga = 'Tengo razon? 😏'} else if (gay == 49 ) {ga = 'Tengo razon? 😏'} else if (gay == 50 ) {ga = 'Eres o no? 🧐'} else if (gay > 51) {ga = 'Usted es gay 🥸'}
+hasil = `${rate}Usted es ${random}% gay\n\n${ga}`
+reply(hasil)
+break;
+case 'cuties':
+if (!isUser) return reply(mess.only.daftarB)
+rate = body.slice(9)
+client.updatePresence(from, Presence.composing) 
+random = `${Math.floor(Math.random() * 100)}`
+cuties = random
+if (cuties < 20 ) {cu = 'Mi loco usted va para el cielo 👏'} else if (cuties == 21 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 23 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 24 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 25 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 26 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 27 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 28 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 29 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 30 ) {cu = 'Te salvaste ramirez 😎'} else if (cuties == 31 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 32 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 33 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 34 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 35 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 36 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 37 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 38 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 39 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 40 ) {cu = 'Ramirez que hace viendo cuties 🤔'} else if (cuties == 41 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 42 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 43 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 44 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 45 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 46 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 47 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 48 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 49 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties == 50 ) {cu = 'Mmm sospechoso ramirez 🧐'} else if (cuties > 51) {cu = 'Señores un autentico FAN DE CUTIES esta en el grupo 🥸'}
+hasil = `${rate}Resultado ${random}% fan de cuties\n\n${cu}`
+reply(hasil)
+break;
+case 'rankgay':
+try{
+if (!isUser) return reply(mess.only.daftarB)
+if (!isGroup) return reply(mess.only.group)
+d = []
+teks = 'Top 5 de los mas gays del grupo\n\n'
+for(i = 0; i < 5; i++) {
+r = Math.floor(Math.random() * groupMetadata.participants.length + 0)
+teks += `➔ @${groupMembers[r].jid.split('@')[0]}\n`
+d.push(groupMembers[r].jid)
+}
+mentions(teks, d, true)
+} catch (e) {
+console.log(e)
+reply('Hubo un error intentalo nuevamente :/')
+}
+break;
+case 'listadmins':
+				case 'adminlist':
+					client.updatePresence(from, Presence.composing) 
+                                        if (!isUser) return reply(mess.only.daftarB)
+					if (!isGroup) return reply(mess.only.group)
+					teks = `*Lista De Administradores Del Grupo*\n\n${groupMetadata.subject}\n\nTotal: ${groupAdmins.length}\n\n`
+					no = 0
+					for (let admon of groupAdmins) {
+						no += 1
+						teks += `[${no.toString()}] @${admon.split('@')[0]}\n`
+					}
+					mentions(teks, groupAdmins, true)
+					break;
+case 'todos':
+			case 'tagall':
+				client.updatePresence(from, Presence.composing) 
+					if (!isGroup) return reply(mess.only.group)
+                                        if (!isUser) return reply(mess.only.daftarB)
+					if (!isGroupAdmins) return reply(mess.only.admin)
+					members_id = []
+					teks = (args.length > 1) ? body.slice(8).trim() : ''
+					teks += `  Total : ${groupMembers.length}\n`
+					for (let mem of groupMembers) {
+						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
+						members_id.push(mem.jid)
+					}
+					mentions('╔══✪〘 *TODOS* 〙✪══\n╠➥'+teks+'╚═〘 _*by 𝗦𝘅𝗿𝗴𝘅𝘅*_ 〙', members_id, true)
+					break;
+case 'bc':
+					client.updatePresence(from, Presence.composing) 
+					if (!isOwner) return reply(mess.only.ownerB)
+					if (args.length < 1) return reply('.......')
+					anu = await client.chats.all()
+					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+						buff = await client.downloadMediaMessage(encmedia)
+						for (let _ of anu) {
+							client.sendMessage(_.jid, buff, image, {caption: `*「 TRANSMISIÓN 」*\n\n${body.slice(4)}`})
+						}
+						reply('')
+					} else {
+						for (let _ of anu) {
+							sendMess(_.jid, `*「 _*by 𝗦𝘅𝗿𝗴𝘅𝘅*_ 」*\n\n${body.slice(4)}`)
+						}
+						reply('Transmisión exitosa')
+					}
+					break;
+case 'ban':
+if (!isGroup) return reply(mess.only.group)
+if (!isGroupAdmins) return reply(mess.only.admin)
+if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return 
+mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+pru = '*\n'
+for (let _ of mentioned) {
+pru += `@${_.split('@')[0]}\n`
+}
+ban.push(`${mentioned}`)
+fs.writeFileSync('./database/banned.json', JSON.stringify(ban))
+susp = `『 BANEADO 🚫 』\n\n◉Nombre: @${mentioned[0].split('@')[0]}\n◉Razon: Spam\n\n*Usted a sido baneado del uso del bot, no podra usar el bot hasta nuevo aviso*`
+mentions(`${susp}`, mentioned, true)   
+break;
+case 'desban':
+if (!isGroup) return reply(mess.only.group)
+if (!isGroupAdmins) return reply(mess.only.admin)
+if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return 
+mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
+pru = '*\n'
+for (let _ of mentioned) {
+pru += `@${_.split('@')[0]}\n`
+}
+ban.splice(`${mentioned}`)
+fs.writeFileSync('./database/banned.json', JSON.stringify(ban))
+susp = `『 DESBANEADO ✅ 』\n\n◉Nombre: @${mentioned[0].split('@')[0]}\n\n*Se te a retirado el BAN ya puedes usar el bot*`
+mentions(`${susp}`, mentioned, true)   
+break;
+case 'linkgc':
+client.updatePresence(from, Presence.composing) 
+if (!isGroup) return reply(mess.only.group)
+if (!isUser) return reply(mess.only.daftarB)
+if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+linkgc = await client.groupInviteCode (from)
+yeh = `Aqui esta el link del grupo\n\nhttps://chat.whatsapp.com/${linkgc}\n\nLink Del Grupo *${groupName}*`
+client.sendMessage(from, yeh, text, {quoted: mek, detectLinks: false})
+break;
 case "intake": // by xeon
         sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select your intake sis✨`, [
           {
