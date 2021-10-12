@@ -4626,59 +4626,59 @@ itsmevall.sendMessage(from, stdout, text, term)
            console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😴)', 'white'))
         }
 
-if (budy.includes(`Wah`)) {
+if (budy.includes(`Angel`)) {
 const Peli = fs.readFileSync('./voicesticker/wah.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`wah`)) {
+if (budy.includes(`angel`)) {
 const Peli = fs.readFileSync('./voicesticker/wah.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`sikha`)) {
+if (budy.includes(`mamada`)) {
 const Peli = fs.readFileSync('./voicesticker/sikha.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`Sikha`)) {
+if (budy.includes(`Mamada`)) {
 const Peli = fs.readFileSync('./voicesticker/sikha.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`selmon`)) {
+if (budy.includes(`puto`)) {
 const Peli = fs.readFileSync('./voicesticker/selmon.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`Selmon`)) {
+if (budy.includes(`Puto`)) {
 const Peli = fs.readFileSync('./voicesticker/selmon.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`Pardesi`)) {
+if (budy.includes(`Guapo`)) {
 const Peli = fs.readFileSync('./voicesticker/pardesi.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`pardesi`)) {
+if (budy.includes(`guapo`)) {
 const Peli = fs.readFileSync('./voicesticker/pardesi.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`ohhh`)) {
+if (budy.includes(`oh`)) {
 const Peli = fs.readFileSync('./voicesticker/ohhh.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`Ohhh`)) {
+if (budy.includes(`Oh`)) {
 const Peli = fs.readFileSync('./voicesticker/ohhh.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`nikal`)) {
+if (budy.includes(`Gusta`)) {
 const Peli = fs.readFileSync('./voicesticker/nikal.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`Nikal`)) {
+if (budy.includes(`gusta`)) {
 const Peli = fs.readFileSync('./voicesticker/nikal.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`moj`)) {
+if (budy.includes(`otaku`)) {
 const Peli = fs.readFileSync('./voicesticker/moj.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
-if (budy.includes(`Moj`)) {
+if (budy.includes(`Otaku`)) {
 const Peli = fs.readFileSync('./voicesticker/moj.mp3');
 itsmevall.sendMessage(from, Peli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 }
