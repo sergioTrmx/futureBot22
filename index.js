@@ -233,7 +233,6 @@ module.exports = itsmevall = async (itsmevall, mek) => {
 const isOwner = ownerNumber.includes(sender);
 const isMedia = (type === 'imageMessage' || type === 'videoMessage');
 const isUser = user.includes(sender);
-const isGroup = from.endsWith('@g.us');
     const antilink = JSON.parse(fs.readFileSync("./database/antilink.json"));
     const antivirtex = JSON.parse(
       fs.readFileSync("./database/antivirtex.json")
